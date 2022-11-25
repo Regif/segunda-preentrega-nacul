@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Coiny&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300&family=Vazirmatn:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--HEADER--*/
+header {
+    background-color: #fdf7f7;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header a img {
+    width: 200px;
+    height: 200px;
+}
+
+header a {
+    text-decoration: solid;
+    color: #37505c;
+    font-size: 17px;
+    font-family: 'coiny', cursive;
+    font-weight: 600;
+}
+
+div nav {
+    background-color: #89b0ae;
+    height: 35px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div nav ul li a:hover {
+    background-color: cadetblue;
+}
+
+/*--MAIN--*/
+
+/**--MAIN INDEX--*/
+
+main {
+    background-color: #f3eff0;
+}
+
+.contenedor-derecha h1 {
+    font-size: 35px;
+    font-family: 'chango', cursive;
+    color: #89b0ae;
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+}
+
+.contenedor-derecha h2 {
+    font-size: 29px;
+    font-family: 'chango', cursive;
+    color: #37505c;
+    padding: 0px 20px 30px 50px;
+    text-align: center;
+}
+
+.contenedor-derecha p {
+    font-family: 'League Spartan',
+        sans-serif;
+    font-size: 28px;
+    font-weight: 200px;
+    color: black;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.contenedor-derecha-img {
+    width: 350px;
+    height: 350px;
+    margin: 40px;
+
+}
+
+.contenedor-izquierdo {
+    margin: 50px;
+    font-size: 25px;
+    font-family: 'chango', cursive;
+    color: #89b0ae;
+    text-align: center;
+}
+
+
+
+
+.grid-item-inicio {
+    box-shadow: plum;
+    margin: 20px;
+    gap: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    object-fit: cover;
+}
+
+.grid-item-inicio div img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.grid-item-3 {
+    grid-row: span 2;
+}
+
+.grid-item-4 {
+    grid-column: span 1.5;
+}
+
+
+.contenedor-boton-a-contacto a {
+    text-decoration: none;
+    color: #37505c;
+    font-family: 'coiny', cursive;
+    background-color: #89b0ae;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-boton-a-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenedor-boton-a-contacto a:hover {
+    background-color: cadetblue;
+
+}
+
+/*--MAIN PRODUCTOS--*/
+
+.productos h1 {
+    font-family: 'coiny', cursive;
+    color: #89b0ae;
+    font-size: 22px;
+
+}
+
+.productos {
+    display: inline-block;
+    width: 260px;
+    height: 350px;
+}
+
+.productos p {
+    font-family: 'League Spartan',
+        sans-serif;
+    font-weight: 200;
+    color: black;
+    font-size: 20px;
+}
+
+.productos img {
+    width: 260px;
+    height: 260px;
+}
+
+/*--MAIN SERVICIOS--*/
+
+.servicios h2 {
+    color: #37505c;
+    font-family: 'coiny', ' cursive';
+    font-size: 40px;
+}
+
+.servicios p {
+    color: black;
+    font-family: 'League Spartan',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+
+.take-away {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.catering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.produccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+/*--MAIN SOBRE NOSOTROS--*/
+/*--MAIN CONTACTO--*/
+
+/*--FOOTER--*/
+footer {
+    background-color: #37505c;
+    height: 10pc;
+
+}
+
+footer img {
+    width: 50px;
+    height: 50xp;
+}
